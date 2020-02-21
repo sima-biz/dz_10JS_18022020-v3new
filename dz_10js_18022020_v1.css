@@ -1,0 +1,41 @@
+
+body {
+  background-color: rgba(124, 224, 224, 1); 
+  display: flex;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center; 
+}
+table {
+  background: rgba(109, 109, 109, 1);
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 1);
+}
+.my-thead, .my-tbody  {
+  background: rgba(39, 39, 39, 1); 
+}
+.true {  
+  color : rgba(250, 0, 0, 0.7);   
+}
+.my-trtheadth0, .my-trtbodythtrue, .my-trtbodythfalse, .true {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 1); 
+  height: 30px;
+  width: 200px;
+  font-size: 25px; 
+}
+.my-trtbodythtrue {  
+  color: rgba(250, 0, 0, 1);  
+}
+.my-trtbodythfalse { 
+  color: rgba(13, 173, 13, 1);   
+}
+.my-trtheadth0 {  
+  color: rgba(241, 241, 0, 1);
+  height: 50px;  
+}
+
+
